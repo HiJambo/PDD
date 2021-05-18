@@ -8,4 +8,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PDD.Core.IRepository\PDD.Core.IRepository.csproj" />
+    <ProjectReference Include="..\PDD.Core.Model\PDD.Core.Model.csproj" />
+    <ProjectReference Include="..\PDD.Core.Repository\PDD.Core.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

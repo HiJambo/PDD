@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDD", "PDD\PDD.csproj", "{26EFF35D-7DA1-44FC-81DB-8C6D71D2202B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDD", "PDD\PDD.csproj", "{26EFF35D-7DA1-44FC-81DB-8C6D71D2202B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDD.Core.Common", "PDD.Core.Common\PDD.Core.Common.csproj", "{2702F349-CD71-487B-BAE7-31EC99A3FEA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDD.Core.Common", "PDD.Core.Common\PDD.Core.Common.csproj", "{2702F349-CD71-487B-BAE7-31EC99A3FEA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDD.Core.Model", "PDD.Core.Model\PDD.Core.Model.csproj", "{B6650A9A-BC46-4646-B303-BB17E0842E07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDD.Core.Model", "PDD.Core.Model\PDD.Core.Model.csproj", "{B6650A9A-BC46-4646-B303-BB17E0842E07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDD.Core.IRepository", "PDD.Core.IRepository\PDD.Core.IRepository.csproj", "{FC35ED36-B1D9-4AED-9FA6-797DDD12BFBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDD.Core.IRepository", "PDD.Core.IRepository\PDD.Core.IRepository.csproj", "{FC35ED36-B1D9-4AED-9FA6-797DDD12BFBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDD.Core.Repository", "PDD.Core.Repository\PDD.Core.Repository.csproj", "{42748548-4C2D-4F42-A315-9EEEE1269CFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDD.Core.Repository", "PDD.Core.Repository\PDD.Core.Repository.csproj", "{42748548-4C2D-4F42-A315-9EEEE1269CFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDD.APP", "PDD.APP\PDD.APP.csproj", "{736A7086-742E-43C9-99C8-7E70F9327D1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{42748548-4C2D-4F42-A315-9EEEE1269CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42748548-4C2D-4F42-A315-9EEEE1269CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42748548-4C2D-4F42-A315-9EEEE1269CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{736A7086-742E-43C9-99C8-7E70F9327D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736A7086-742E-43C9-99C8-7E70F9327D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736A7086-742E-43C9-99C8-7E70F9327D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736A7086-742E-43C9-99C8-7E70F9327D1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
