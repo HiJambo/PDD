@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\洪维枫\\Desktop\\值引装\\PDD\\PDD.Core.Model\\PDD.Core.Model.csproj": {}
+    "G:\\PDD\\PDD.Core.Model\\PDD.Core.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\洪维枫\\Desktop\\值引装\\PDD\\PDD.Core.Model\\PDD.Core.Model.csproj": {
+    "G:\\PDD\\PDD.Core.Model\\PDD.Core.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\洪维枫\\Desktop\\值引装\\PDD\\PDD.Core.Model\\PDD.Core.Model.csproj",
+        "projectUniqueName": "G:\\PDD\\PDD.Core.Model\\PDD.Core.Model.csproj",
         "projectName": "PDD.Core.Model",
-        "projectPath": "C:\\Users\\洪维枫\\Desktop\\值引装\\PDD\\PDD.Core.Model\\PDD.Core.Model.csproj",
-        "packagesPath": "C:\\Users\\洪维枫\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\洪维枫\\Desktop\\值引装\\PDD\\PDD.Core.Model\\obj\\",
+        "projectPath": "G:\\PDD\\PDD.Core.Model\\PDD.Core.Model.csproj",
+        "packagesPath": "C:\\Users\\X2\\.nuget\\packages\\",
+        "outputPath": "G:\\PDD\\PDD.Core.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "E:\\共享\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\洪维枫\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\X2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
