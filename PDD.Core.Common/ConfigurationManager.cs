@@ -20,7 +20,7 @@ namespace PDD.Core.Common
 
         public static string conn
         {
-            get { return Configuration.GetConnectionString("HN_BASEFRAME"); }
+            get { return Configuration.GetConnectionString("month01"); }
         }
 
 

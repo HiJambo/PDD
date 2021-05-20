@@ -7,6 +7,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using PDD.Core.IRepository.Warehouse;
+using PDD.Core.Repository.Warehouse;
+using PDD.Core.IRepository.Distribution;
+using PDD.Core.Repository.Distribution;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,7 +43,9 @@ namespace PDD
             p => p.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
 
             // Add the whole configuration object here.
-            services.AddSingleton<IConfiguration>(Configuration);
+            services.AddSingleton<IWarehouseRepository,WaerhouseRepository>();
+            services.AddSingleton<IDistributionRepository, DistributionRepository>();
+
 
         }
 
